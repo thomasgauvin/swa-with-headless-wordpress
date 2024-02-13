@@ -21,7 +21,6 @@ export default async function Home() {
   )
 }
 
-//create component for card that displays a posts title, excerpt, and featured image
 const PostCard = ({ title, excerpt, imageUrl, slug }: {
   title: string;
   excerpt: string;
